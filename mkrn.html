@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Dancing+Script&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
+    <title>Mkrn</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="/images/Logo.png" alt="">
+        </div>
+        <ul>
+            <li class="item"><a href="#">WHAT'S ON MKR</a></li>
+            <li class="item"><a href="#">CUISINE</a></li>
+            <li class="item"><a href="#">ABOUT</a></li>
+            <li class="item"><a href="#">CONTACT</a></li>
+            <li class="item"><a href="#">TAKEAWAY/DELIVERY</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="tag">
+            <h1>Welcome to Food-e-Shaan</h1>
+            <p class="homepara">Musical Restro Bar</p>
+            <button class="btn">Order Now</button>
+        </div>
+        <div class="booking">
+            <h3><b>Let us serve you better</b></h3>
+            <p>Don't wait in a line to enjoy your meal. <br> Reserve a table in advance with us.</p>
+            <div>
+                <label>Location</label><br>
+                <select class="locationbox" id="list" onchange="getSelectValue();">
+                    <option value="nd" class="optval">Noida</option>
+                    <option value="lkn" class="optval">Lucknow</option>
+                    <option value="ggm" class="optval">Gurugram</option>
+                    <option value="bom" class="optval">Mumbai</option>
+                    <option value="bgl" class="optval">Bangalore</option>
+                </select>
+            </div>
+            <div class="date">
+                <label>Date </label><br>
+                <input class="datebox" type="date" name="" id="date">
+            </div>
+            <div>
+                <label>Choose Time</label><br>
+                <input class="timebox" type="time">
+            </div>
+            <button class="btnbooking">Reserve Table</button>
+        </div>
+    </section>
+    <section class="services-container">
+        <!-- <h1 class="h-primary center">We Provide</h1> -->
+        <div id="services">
+            <div class="box">
+                <img src="/images/N1.jpg" alt="">
+                <h2 class="h-secondary center">Live Performance</h2>
+                <p class="center">As name suggests, this level will be having LIVE MUSIC & BAR with world class sound
+                    quality & best of liquor brands. This level will be complete smoking floor, where visitors can enjoy
+                    Loud music, Drinks, Smoke & Food.</p>
+
+            </div>
+
+            <div class="box">
+                <img src="/images/N2.jpg" alt="">
+                <h2 class="h-secondary center">Celebration</h2>
+                <p class="center">As name suggests, this level will be a Premium Lounge with Live Kitchen decorated with
+                    colors of Ocean to provide soothing & relaxing feeling to the visitors. This level will have Drinks,
+                    Food & Lounge Music to enjoy & re</p>
+
+            </div>
+        </div>
+    </section>
+    <section class="menucontainer">
+        <div class="menu">
+            <h1 class="first-line center">
+                Visit us @ Food-E-Shaan <br></h1>
+
+            <h1 class="sec-line center"> ENJOYABLE & COMFORTABLE
+            </h1>
+            <button class="btnmenu center">
+                View Menu
+            </button>
+        </div>
+    </section>
+    <section id="speciality">
+        <!-- <h3 class="center">Our Specialities</h3>
+            <h2 class="center">CHEF SPECIAL</h2> -->
+        <div class="special-item">
+            <div class="special-img">
+                <img src="/images/special.jpg" alt="">
+            </div>
+            <div class="specialcategory">
+                <div>
+                    <img class="img-spcl" src="/images/murgh.jpg" alt="">
+                    <h3>BHATTI KA BHUNA MURG</h3>
+                    <p class="specialpara">This snack recipe is made with chicken pieces marinated in hung curd</p>
+                </div>
+                <div>
+                    <img class="img-spcl" src="/images/corn.jpg" alt="">
+                    <h3>CORN SALT N PEPPER</h3>
+                    <p class="specialpara">Crispy corn is a snack made by frying corn kernels and then flavoring</p>
+                </div>
+                <div>
+                    <img class="img-spcl" src="/images/paneer-tikka.jpg" alt="">
+                    <h3>HADIPPA PANEER TIKKA</h3>
+                    <p class="specialpara">Hadippa Harayali Cheese Kebab is a scrumptious appetizer recipe</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="feedback">
+
+        <div class="feed-head">
+            <h2 class="center">WHAT OUR CUSTOMERS SAYS</h2>
+        </div>
+        <div class="feeds">
+            <div class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, voluptas aliquam,
+                quibusdam fugiat ullam, odio aperiam molestias incidunt nam consequatur ad perferendis nihil?<br>-Uncle
+            </div>
+            <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat atque molestias amet quod
+                officiis aspernatur laudantium, delectus magni quidem suscipit nostrum id possimus?<br>-Uncle2</div>
+            <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi ducimus sed iure sequi
+                totam tenetur voluptatibus quibusdam quaerat!<br>-Uncle3</div>
+            <!-- <div class="item">box 4</div>
+                <div class="item">box 5</div> -->
+        </div>
+        <div>
+            <button class="feedbtn">Leave Feedback</button>
+        </div>
+
+    </section>
+    <section id="partners">
+
+
+    </section>
+    <section>
+        <h3 class="partner-head center">Our Partners</h3>
+        <div class="partner">
+            <div class="partner-item">
+                <img src="/images/Zomato_logo.png" alt="">
+                <!-- <span class="iconify" data-icon="simple-icons:zomato"></span> -->
+            </div>
+            <div class="partner-item">
+                <img src="/images/swiggy.jpg" alt="">
+                <!-- <span class="iconify" data-icon="simple-icons:swiggy"></span> -->
+            </div>
+            <div class="partner-item">
+                <img src="/images/magicpin.jpg" alt="">
+
+            </div>
+            <div class="partner-item">
+                <img src="/images/dineout.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="last-section">
+        <!-- <div class="availableat"> -->
+        <ul class="availableat">
+            <li>
+                <!-- <a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by
+                    vidyavidz - Flaticon</a> -->
+                <a href="https://facebook.com/" target="_blank"><img src="/images/facebook.png" alt=""></a>
+            </li>
+            <li>
+                <!-- <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created
+                    by Laisa Islam Ani - Flaticon</a> -->
+                <a href="https://instagram.com/" target="_blank"><img src="/images/instagram.png" alt=""></a>
+            </li>
+            <li>
+                <!-- <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by
+                    Fathema Khanom - Flaticon</a> -->
+                <a href="https://twitter.com/" target="_blank"><img src="/images/twitter.png" alt=""></a>
+            </li>
+        </ul>
+        <div class="tag">
+            <h1>Welcome to Food-e-Shaan</h1>
+            <p class="homepara">Musical Restro Bar</p>
+            <!-- <button class="btn">Order Now</button> -->
+        </div>
+        <div class="location">
+            <p class="center">
+                J 56, Opposite TGIP Mall, Sector 18, Noida, Uttar Pradesh 201301 <br>
+                RESERVATIONS NUMBER: +91-98765-43210 <br>
+                WORKING HOURS:
+                SUN - SAT : 12 PM TO 12 AM
+            </p>
+        </div>
+        <div class="newsletter">
+            <input class="newslettertext" type="text" placeholder="Subscribe to our NewsLetter feed:">
+            <button class="newsletterbtn">Submit</button>
+        </div>
+        <!-- </div> -->
+        <hr class="footer-head">
+        <footer>
+            <p class="footer-para center">Copyright © 2021 Food-e-Shaan. All rights reserved</p>
+        </footer>
+    </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+</body>
+<script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+<script src="/java.js"></script>
+
+</html>
