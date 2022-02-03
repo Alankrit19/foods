@@ -91,7 +91,7 @@
 
 #home::before {
     content: "";
-    background: url('/images/bg-1.jpg') no-repeat center center/cover;
+    background: url('images/bg-1.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -225,7 +225,7 @@ color: tomato;
 
 .services-container::before {
     content: "";
-    background: url('/images/bg-2.jpg') no-repeat center center/cover;
+    background: url('images/bg-2.jpg') no-repeat center center/cover;
     opacity: 0.6;
     position: absolute;
     z-index: -1;
@@ -264,7 +264,7 @@ color: tomato;
 
 .menucontainer::before {
     content: "";
-    background: url('/images/bg-3.jpg') no-repeat center center/cover;
+    background: url('images/bg-3.jpg') no-repeat center center/cover;
     filter: brightness(28%);
     position: absolute;
     width: 100%;
@@ -373,7 +373,7 @@ color: tomato;
 
 #feedback::before {
     content: "";
-    background: url('/images/bg-4.jpg') no-repeat center center/cover;
+    background: url('images/bg-4.jpg') no-repeat center center/cover;
     filter: brightness(28%);
     position: absolute;
     width: 100%;
